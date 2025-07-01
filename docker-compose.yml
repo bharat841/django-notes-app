@@ -1,6 +1,8 @@
 version: "3.8"
 
 services:
+web:
+image: "bharatmhn/notes-app:latetst"
   nginx:
     build: ./nginx
     image: nginx
